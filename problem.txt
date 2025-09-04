@@ -1,0 +1,5 @@
+(tutorial) C:\Users\HP\OneDrive\Desktop\ifc_langchain>python multi_model_chain.py
+C:\Users\HP\OneDrive\Desktop\ifc_langchain\multi_model_chain.py:26: LangChainDeprecationWarning: The class `LLMChain` was deprecated in LangChain 0.1.17 and will be removed in 1.0. Use :meth:`~RunnableSequence, e.g., `prompt | llm`` instead.
+  chain_question = LLMChain(llm=llm_flash, prompt=prompt_template_question)
+C:\Users\HP\OneDrive\Desktop\ifc_langchain\multi_model_chain.py:49: LangChainDeprecationWarning: The method `Chain.run` was deprecated in langchain 0.1.0 and will be removed in 1.0. Use :meth:`~invoke` instead.
+  response = overall_chain.run(topic)can
